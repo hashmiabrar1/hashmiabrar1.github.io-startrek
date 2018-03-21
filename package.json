@@ -1,0 +1,22 @@
+{
+  "name": "startup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify script.js > bundle.js && live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hashmiabrar1/hashmiabrar1.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hashmiabrar1/hashmiabrar1.github.io/issues"
+  },
+  "homepage": "https://github.com/hashmiabrar1/hashmiabrar1.github.io#readme",
+  "dependencies": {
+    "lodash": "^4.17.5"
+  }
+}

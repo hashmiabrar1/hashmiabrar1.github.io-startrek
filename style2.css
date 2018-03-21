@@ -1,0 +1,39 @@
+body{
+	margin: 0px;
+}
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+h1{
+	font-family: Montserrat;
+	font-size: 3em;
+	color: #134567;
+	border-bottom:2px solid pink;
+	text-align: center;
+	box-shadow: 8px 8px 14px #297C46;
+	margin-top: 10px;
+}
+p{
+	font-family: fantasy;
+	font-size: 2em;
+}
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 300px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+img{
+	width: 460px;
+	height: 300px;
+	margin: 10px;
+	transition: all 1s;
+}
+
+img:hover {
+	transform:scale(1.1);
+}
